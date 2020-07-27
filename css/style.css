@@ -52,23 +52,23 @@ body {
   flex-direction: column;
   margin: 0 auto;
 }
+
 /******************************* Carousel-item  *********************************/
 
-.carousel-item  {
+.carousel-item {
   height: 32rem;
-  background-color:#777;
+  background-color: #777;
   color: #fff;
   position: relative;
-
 }
 
-
-.container{
+.container {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding-bottom:5rem;
+  padding-bottom: 5rem;
+  cursor: pointer;
 }
 
 /*----------------------------------------*/
@@ -321,8 +321,7 @@ header {
 
 /*----------------LINKS-------------------*/
 
-.main-nav li a:link,
- .main-nav li a:visited {
+.main-nav li a:link, .main-nav li a:visited {
   padding: 8px 0px;
   border-bottom: 2px solid transparent;
   color: #f7f7f7;
@@ -348,48 +347,50 @@ header {
   border-bottom: 2px solid #e8e4e0;
 }
 
-
 .mobile-nav-icon {
-	float: right;
-	margin-top: 30px;
-	cursor: pointer;
-	display: none;
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
 }
 
 .mobile-nav-icon i {
-	font-size: 200%;
-	color: #fff;
+  font-size: 200%;
+  color: #fff;
 }
 
 /* Stick navi */
 
 .sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: #fff;
-	box-shadow: 0 0px2px #efefef;
-	z-index: 9999;
-	
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0px2px #efefef;
+  z-index: 9999;
 }
 
-.sticky .main-nav{ margin-top: 18px;
-	z-index: 9999; }
+.sticky .main-nav {
+  margin-top: 18px;
+  z-index: 9999;
+}
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-	padding: 16px 0px;
+.sticky .main-nav li a:link, .sticky .main-nav li a:visited {
+  padding: 16px 0px;
   color: #555;
   z-index: 9999;
-	
 }
 
-.sticky .logo{display: none;}
-.sticky .logo-black {display: block; }
+.sticky .logo {
+  display: none;
+}
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
+.sticky .logo-black {
+  display: block;
+}
+
+.sticky .main-nav li a:link, .sticky .main-nav li a:visited {
   padding: 8px 0px;
   border-bottom: 2px solid transparent;
   color: #020202;
@@ -418,12 +419,6 @@ header {
 }
 
 /**************************************************************/
-
-
-
-
-
-
 
 /****************************************************************/
 
@@ -461,7 +456,7 @@ header {
   justify-content: center;
 }
 
-.box{
+.box {
   background-color: inherit;
   width: 55rem;
   height: 25rem;
@@ -479,11 +474,6 @@ header {
   width: 3rem;
   height: 3rem;
 }
-
-
-
-
-
 
 .footer {
   background-color: #f7f7f7;
@@ -614,6 +604,7 @@ header {
   -webkit-transform: translateY(1px);
   transform: translateY(1px);
 }
+
 .sticky .nav__search-btn {
   background: none;
   border: none;
@@ -642,6 +633,7 @@ header {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .sticky .nav__search-input {
   font-family: inherit;
   font-weight: inherit;
