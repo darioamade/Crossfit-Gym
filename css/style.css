@@ -37,6 +37,16 @@ body {
 }
 
 /******************************* Carousel-item  *********************************/
+header{
+  position: relative;
+}
+nav {
+  position: absolute;
+  width:100vw;
+  height: 8rem;
+  z-index: 2;
+  background-color:rgba(255, 255, 255, 0.01);
+}
 
 .carousel-item {
   height: 70vh;
