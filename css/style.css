@@ -45,8 +45,52 @@ nav {
   width:100vw;
   height: 8rem;
   z-index: 2;
-  background-color:rgba(255, 255, 255, 0.01);
+  background-color:rgba(255, 255, 255, 0.249);
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  
 }
+
+
+.logo {
+  width: 10rem;
+  height: 4rem;
+}
+
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+
+
+}
+ a {
+
+  list-style: none;
+}
+
+ li{
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight:400;
+  letter-spacing: 1px;
+  
+ 
+}
+
+
+
+
+
+
 
 .carousel-item {
   height: 70vh;
@@ -307,12 +351,7 @@ section {
 
   /*--------------best css effect backgrou-att-fixed----------------------*/
 
-.logo {
-  height: 100px;
-  width: auto;
-  float: left;
-  margin-top: 2rem;
-}
+
 
 
 /*----------------LINKS-------------------*/
